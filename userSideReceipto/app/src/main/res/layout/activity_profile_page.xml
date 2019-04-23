@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:textSize="45dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="690dp"
+        >
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="email:"
+                android:textSize="30dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:id="@+id/userEmailAddress"
+
+                android:inputType="textVisiblePassword"
+                android:cursorVisible="false"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+
+                android:textSize="40dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Age:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="20"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+
+                android:textSize="30dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="PersonalID:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:ellipsize="end"
+                android:textSize="30dp" />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/userId"
+                android:inputType="textVisiblePassword"
+                android:cursorVisible="false"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+android:layout_span="2"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Total:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:id="@+id/userTotalCost"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+
+                android:textSize="30dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/logOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="logOut"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Refresh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+                android:textSize="30dp" />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/allReceipts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+
+
+                android:text="allReceipts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+android:layout_span="2"
+                android:textSize="30dp" />
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

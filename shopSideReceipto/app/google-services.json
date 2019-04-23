@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "693143497507",
+    "firebase_url": "https://firetres-6edb1.firebaseio.com",
+    "project_id": "firetres-6edb1",
+    "storage_bucket": "firetres-6edb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693143497507:android:a6942ff7ce92e78e",
+        "android_client_info": {
+          "package_name": "com.companyname.yash.connectingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693143497507-n766m857jatblceq6j74l41tmj5lhrt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.yash.connectingfirebase",
+            "certificate_hash": "3c0807eaf41ab394382ff64845ee065ddfd8aed2"
+          }
+        },
+        {
+          "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbXuiuBNF7FNarydU3N-ccKA6s85h0NN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693143497507:android:e8b0ff43496f5e9b",
+        "android_client_info": {
+          "package_name": "com.companyname.yash.shopsidereceipto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbXuiuBNF7FNarydU3N-ccKA6s85h0NN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693143497507:android:cbd7362a3d181a67",
+        "android_client_info": {
+          "package_name": "com.companyname.yash.usersidereceipto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbXuiuBNF7FNarydU3N-ccKA6s85h0NN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693143497507-vd3vi24dcag0dnfrjd6jk75n0c7dp00n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
