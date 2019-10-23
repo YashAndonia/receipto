@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="email"
+            android:hint="Email"
             android:inputType="textEmailAddress"
             tools:layout_editor_absoluteX="75dp"
             tools:layout_editor_absoluteY="72dp" />
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="password(6 chars min)"
+            android:hint="Password(6 chars min)"
 
             android:inputType="textPassword"
             tools:layout_editor_absoluteX="75dp"
@@ -43,13 +43,13 @@
             android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="submit" />
+            android:text="Submit" />
 
         <Button
             android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="register Here" />
+            android:text="Register Here" />
 
     </LinearLayout>
 
